@@ -2,6 +2,7 @@
   "name": "morney-r",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zhiyanLiu-xz.github.io/morney-r-website/",
   "dependencies": {
     "@babel/core": "7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.3",
@@ -80,7 +81,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "deploy":"sh scripts/deploy.sh"
   },
   "eslintConfig": {
     "extends": [
